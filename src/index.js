@@ -1,4 +1,4 @@
 import ReactDOM from 'react-dom'
+import './main.css'
 import React, { Component } from 'react'
-const root = document.getElementById("root");
-ReactDOM.render(<div>Hello World!</div>, root)
+ReactDOM.render(<div>Hello World!</div>, document.getElementById("root"))
