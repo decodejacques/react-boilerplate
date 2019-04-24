@@ -7,6 +7,7 @@ module.exports = {
     path: path.join(__dirname, "build"),
   },
   devServer: {
+    port: 3000,
     overlay: {
       warnings: true,
       errors: true
